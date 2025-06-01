@@ -17,3 +17,4 @@ snake = [
 ]
 food = [screenHeight // 2, screenWidth // 2]
 window.addch(int(food[0]), int(food[1]), curses.ACS_PI)  # Place food on the screen
+key = curses.KEY_RIGHT  # Initial direction of the snake
